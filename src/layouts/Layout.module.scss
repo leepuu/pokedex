@@ -1,0 +1,36 @@
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #d6e5e9;
+}
+.container {
+  overflow: overlay;
+  width: 375px;
+  height: 667px;
+  border-radius: 20px;
+  isolation: isolate;
+  @media screen and (max-width: 720px) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+.inner {
+  overflow: overlay;
+  height: 100%;
+  background: #edf3f8;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}

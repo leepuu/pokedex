@@ -1,0 +1,38 @@
+@use "../global/variables";
+@use "sass:list";
+@use "sass:map";
+
+
+// Family
+$pretendard: (
+  "Light": 300,
+  "Regular": 400,
+  "Medium": 500,
+  "SemiBold": 600,
+  "Bold": 700,
+  "ExtraBold": 800,
+  "Black": 900
+);
+
+@each $name, $weight in $pretendard {
+  @font-face {
+    font-family: "Pretendard";
+    font-weight: $weight;
+    src:url('../../fonts/Pretendard-#{$name}.woff')  format("woff");
+  }
+}
+
+$families: "Pretendard", "RobotoMono", "monospace";
+@each $family in $families {
+  .font_#{$family} {
+    font-family: $family;
+  }
+}
+
+// Weight
+$weights: 800, 600, 500, 400, 300;
+@each $weight in $weights {
+  .fontweight_#{$weight} {
+    font-weight: $weight;
+  }
+}

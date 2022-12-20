@@ -1,0 +1,37 @@
+.stat {
+  display: flex;
+  align-items: center;
+  & + .stat {
+    margin-top: 8px;
+  }
+  &:nth-child(odd) {
+    .bar {
+      background: #e6625e;
+    }
+  }
+  &:nth-child(even) {
+    .bar {
+      background: #0bbcd6;
+    }
+  }
+}
+.title {
+  width: 30%;
+  font-weight: 400;
+  color: #777;
+}
+.num {
+  width: 10%;
+  font-weight: 700;
+}
+.progress_bar {
+  overflow: hidden;
+  width: 70%;
+  height: 5px;
+  background: #e0e5ea;
+  border-radius: 5px;
+}
+.bar {
+  display: block;
+  height: 100%;
+}

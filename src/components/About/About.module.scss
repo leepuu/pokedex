@@ -1,0 +1,19 @@
+.list_info {
+  display: flex;
+  width: 100%;
+  .item {
+    flex: 1;
+  }
+  .title {
+    padding-top: 0;
+  }
+}
+.title {
+  display: block;
+  padding: 32px 0 8px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.desc {
+  line-height: 1.4;
+}

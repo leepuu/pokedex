@@ -1,0 +1,16 @@
+.wrap {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
