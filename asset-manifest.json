@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pokedex/static/css/main.987da7ed.css",
+    "main.js": "/pokedex/static/js/main.7a5c0658.js",
+    "static/media/Pretendard-Black.woff": "/pokedex/static/media/Pretendard-Black.fe80bd8c7ce9b3af972f.woff",
+    "static/media/Pretendard-ExtraBold.woff": "/pokedex/static/media/Pretendard-ExtraBold.82ea4400a5eea299b40c.woff",
+    "static/media/Pretendard-Bold.woff": "/pokedex/static/media/Pretendard-Bold.f6866c5eb21ccb9a8749.woff",
+    "static/media/Pretendard-SemiBold.woff": "/pokedex/static/media/Pretendard-SemiBold.a0c72d6162af72df37ec.woff",
+    "static/media/Pretendard-Medium.woff": "/pokedex/static/media/Pretendard-Medium.f902522b86842449110e.woff",
+    "static/media/Pretendard-Regular.woff": "/pokedex/static/media/Pretendard-Regular.ab56c53f21ca6b32d15f.woff",
+    "static/media/Pretendard-Light.woff": "/pokedex/static/media/Pretendard-Light.40808ea4485a78c05f92.woff",
+    "static/media/logo.png": "/pokedex/static/media/logo.0cb983c1ee2cfa78f6aa.png",
+    "static/media/icon_search.svg": "/pokedex/static/media/icon_search.bc5774416b0e45e5a1abe859a55e0d76.svg",
+    "index.html": "/pokedex/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.987da7ed.css",
+    "static/js/main.7a5c0658.js"
+  ]
+}
